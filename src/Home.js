@@ -36,8 +36,8 @@ const Home = () => {
    consequuntur omnis sed fugit facilis repudiandae blanditiis assumenda porro?</p>
 
    <div className='md:mt-10 mt-5 gap-5 flex'>
-    <button className='border-2 md:px-7 px-12 py-2 border-black hover:bg-black hover:text-white transition-all'>Buy Now</button>
-    <button className='border-2 px-12 py-2 border-black hover:bg-black hover:text-white transition-all'>Dextscreener</button>
+    <button className='border-2 px-7 py-2 border-black hover:bg-black hover:text-white transition-all'>Buy Now</button>
+    <button className='border-2 md:px-12 px-7 py-2 border-black hover:bg-black hover:text-white transition-all'>Dextscreener</button>
    </div>
 </section>
 </div>
@@ -106,10 +106,10 @@ const Home = () => {
 
         <div className='mt-5 px-5 mx-2 border-2 border-black'>
           <p className='text-xl py-2 text-center uppercase font-bold'>How to buy</p>
-          <div className='md:flex justify-center my-10 gap-10'>
-            <a href=""><img src="https://roaringkitty.wtf/wp-content/uploads/2023/12/uniswap.webp" alt="" className='w-20 rounded-full'/><p className='md:text-center underline'>Uniswap</p></a>
-            <a href=""><img src="https://roaringkitty.wtf/wp-content/uploads/2024/01/sushiswap-sushi-logo-1-300x300.png" alt="" className='w-20 rounded-full'/><p className='md:text-center underline'>Sushiswap</p></a>
-            <a href=""><img src="https://roaringkitty.wtf/wp-content/uploads/2024/01/icon-round-512-300x300.png" alt="" className='w-20 rounded-full'/><p className='md:text-center underline'>Pancakeswap</p></a>
+          <div className='flex justify-center my-10 gap-10'>
+            <a href=""><img src="https://roaringkitty.wtf/wp-content/uploads/2023/12/uniswap.webp" alt="" className='w-20 rounded-full'/><p className='text-center underline'>Uniswap</p></a>
+            <a href=""><img src="https://roaringkitty.wtf/wp-content/uploads/2024/01/sushiswap-sushi-logo-1-300x300.png" alt="" className='w-20 rounded-full'/><p className='text-center underline'>Sushiswap</p></a>
+            <a href=""><img src="https://roaringkitty.wtf/wp-content/uploads/2024/01/icon-round-512-300x300.png" alt="" className='w-20 rounded-full'/><p className='text-center underline'>Pancakeswap</p></a>
           </div>
         </div>
      
@@ -117,7 +117,7 @@ const Home = () => {
 <div className='py-5 mt-10 text-center'>
 <p className='text-3xl font-bold'>
 BABY CARLOS </p>
-<p className='mt-5 text-xl'>Join our programme and follow us on X for the latest updates and a warm <br /> welcome from our friendly <br /> community...</p>
+<p className='mt-5 text-xl px-2 md:pxー０'>Join our programme and follow us on X for the latest updates and a warm <br /> welcome from our friendly <br /> community...</p>
 </div>
 
 <div className='flex justify-center gap-10 text-5xl mt-50'>
