@@ -7,7 +7,7 @@ const Home = () => {
 
 <div>
 <nav className='p-5 px-10 flex justify-between border-b-2 border-black items-center'>
-  <a href=""><img src="./img/unnamed1.png" alt="" className='rounded-full w-20 h-[72px]'/></a>
+  <a href=""><img src="./img/unnamed1.png" alt="" className='rounded-full w-10 md:w-20 h-10 md:h-[72px]'/></a>
 
   <ul className='md:flex hidden w-[40%] text-lg font-semibold justify-between'>
     <li><a href="">Home</a></li>
